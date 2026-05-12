@@ -2,11 +2,13 @@ module Aemeath.Execute.Me
 
 go 1.26.3
 
-require github.com/muesli/termenv v0.16.0
+require (
+	github.com/faiface/beep v1.1.0
+	github.com/muesli/termenv v0.16.0
+)
 
 require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
-	github.com/faiface/beep v1.1.0 // indirect
 	github.com/hajimehoshi/go-mp3 v0.3.0 // indirect
 	github.com/hajimehoshi/oto v0.7.1 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
